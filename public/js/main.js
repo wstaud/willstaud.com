@@ -36,6 +36,9 @@ jQuery('img.svg').each(function(){
 $("#siteRepoBtn").click(function() {
     window.open("https://github.com/xconstaud/xconstaud.github.io", "_blank");
 });
+$("#resumeBtn").click(function() {
+    window.open("/files/William-Staud.pdf", "_blank");
+});
 $("#lcarsRepoBtn").click(function() {
     window.open("https://github.com/xconstaud/Simple-Simon", "_blank");
 });
