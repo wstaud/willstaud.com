@@ -34,29 +34,29 @@ jQuery('img.svg').each(function(){
 //Button Liteners
 
 $("#siteRepoBtn").click(function() {
-    window.open("https://github.com/xconstaud/xconstaud.github.io", "_blank");
+    window.open("https://github.com/wstaud/willstaud.com", "_blank");
 });
 $("#resumeBtn").click(function() {
     window.open("/files/William-Staud.pdf", "_blank");
 });
 $("#lcarsRepoBtn").click(function() {
-    window.open("https://github.com/xconstaud/Simple-Simon", "_blank");
+    window.open("https://github.com/wstaud/Simple-Simon", "_blank");
 });
 $("#lcarsBtn").click(function() {
     window.open("/lcars.html", "_blank");
 });
 $("#calcRepoBtn").click(function() {
-    window.open("https://github.com/xconstaud/Codeup-Web-Exercises/tree/master/public", "_blank");
+    window.open("https://github.com/wstaud/Codeup-Web-Exercises/tree/master/public", "_blank");
 });
 $("#calcBtn").click(function() {
     window.open("/calculator.html", "_blank");
 });
 //Buttons between LCARS and Exercises here!
 $("#exercisesRepoBtn").click(function() {
-    window.open("https://github.com/xconstaud/Codeup-Web-Exercises", "_blank");
+    window.open("https://github.com/wstaud/Codeup-Web-Exercises", "_blank");
 });
 $("#githubRepoBtn").click(function() {
-    window.open("https://github.com/xconstaud", "_blank");
+    window.open("https://github.com/wstaud", "_blank");
 });
 
 $(".mobileNav").on("click", function(){
