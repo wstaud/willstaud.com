@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>William Staud</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <link rel="stylesheet" type="text/css" href="/css/simplegrid.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+
+    <body>
+        <!-- Full screen cover image with centered text -->
+        <div class="aboutCover">
+            <div class="centerTextAbsolute">
+                <h1 id="coverName">WILLIAM STAUD</h1>
+                <h2 id="coverDes">Full Stack Web Developer</h2>
+            </div>
+            <!-- The background itself. Had to throw it in it's own div to lower it's opacity-->
+            <div class="coverBackground"></div>
+        </div>
+        <!-- Start of content. Used Simple Grid for everything between the navbar and footer -->
+        <div class="container">
+            <!-- Basic nav bar with social media icons. Can change color and properties of them within CSS -->
+            <div class="mobileNav">
+                <a href="#" id="mobileLogo">William Staud</a>
+            </div>
+            <div class="nav">
+                <a href="#" id="logo">William Staud</a>
+                <div id="links">
+                    <a href="/index.html">about</a>
+                    <a href="/portfolio.html">portfolio</a>
+                    <a href="/blog.html">blog</a>
+                    <a href="#">contact</a>
+                </div>
+                <div id="socialMedia">
+                    <a href="#">
+                        <img class="svg social-link mobileHide" id="linkdedin" src="/img/linkedin.svg">
+                    </a>
+                    <a href="https://github.com/xconstaud">
+                        <img class="svg social-link mobileHide" id="github" src="/img/github.svg">
+                    </a>
+                    <a href="mailto:william.staud@gmail.com">
+                        <img class="svg social-link mobileHide" id="inbox" src="/img/inbox.svg">
+                    </a>
+                    <a href="https://www.youtube.com/user/steeleknightfootball">
+                        <img class="svg social-link mobileHide" id="youtube" src="/img/youtube.svg">
+                    </a>
+                </div>
+            </div>
+            <!-- Wrapped the grids within a fullwidth class to give page the apperance of full content backgrounds -->
+            <!--  -->
+            <div class="fullwidth whiteBox">
+                <div class="grid grid-pad">
+                    <div id="aboutMeDiv" class="col-6-12">
+                        <h1 id="aboutMe">about me</h1>
+                        <h2 id="summary">I'm a student at Codeup studying to be a Full Stack Developer with a focus on Front End</h2>
+                        <p id="aboutMeText">I love thinking of something awesome and being able to make it come to life with the power of Full Stack development. I believe in simple, fast, yet powerful web applicaitons that draw the user on first contact. I enjoy all aspects of programming from the logic and structure to creating beautiful UI designs; and I make it all happen with a wide variety of tools from HTML and CSS to Javascript and PHP.</p>
+                        <p id="aboutMeExtra">When I'm not coding, you'll find me partaking in a array of nerdy things from video and tabletop games, to video production and riding my motorcycle.</p>
+                    </div>
+                    <div class="col-5-12 push-1-12" id="myPhoto">
+                        <img id="me" src="/img/beard.png">
+                    </div>  
+                 </div>
+            </div>
+            <!-- Will add to this later -->
+            <div class="fullwidth grayBox">
+                <div class="grid grid-pad grayBoxGrid">
+                    <img id="chart" src="/img/skillsChart.png">
+                </div>
+            </div>
+            <!--  -->
+            <div class="fullwidth whiteBox">
+                <div id="moreInfoBox" class="grid grid-pad">
+                    <div class="col-7-12">
+                        <img id="enterprise" src="/img/enterprise.png">
+                    </div>
+                    <div class="col-4-12 push-1-12" id="moreList">
+                        <h2>A little more about me</h2>
+                        <ul>
+                            <li>I am a Star Trek fanatic</li>
+                            <li>Star Wars is good too</li>
+                            <li>I flew satellites in the Air Force</li>
+                            <li>I could be classified as an Audiophile</li>
+                            <li>I was once the top Tracer in the world</li>
+                            <li>I ride my motorcycle everywhere</li>
+                            <li>No really... everywhere</li>
+                            <li>I love electronic and metal music</li>
+                            <li>I wear my beanie all the time</li>
+                            <li>I don't remember what it's like to shave</li>
+                            <li>I'm a developer, not a mechanic!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="grid footerGrid">
+                    <div class="col-1-3 footerLinks">
+                        <ul>
+                            <li><a href="mailto:william.staud@gmail.com">william.staud@gmail.com</a></li>
+                            <li><a href="https://github.com/xconstaud">https://github.com/xconstaud</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerCopyright col-1-3">
+                        <p>©2017 - William Staud</p>
+                    </div>
+                    <div class="footerIcons col-1-3">
+                        <a href="#">
+                            <img class="svg svgGray social-link" id="linkdedin" src="/img/linkedin.svg">
+                        </a>
+                        <a href="https://github.com/xconstaud">
+                            <img class="svg svgGray social-link" id="github" src="/img/github.svg">
+                        </a>
+                        <a href="mailto:william.staud@gmail.com">
+                            <img class="svg svgGray social-link" id="inbox" src="/img/inbox.svg">
+                        </a>
+                        <a href="https://www.youtube.com/user/steeleknightfootball">
+                            <img class="svg svgGray social-link" id="youtube" src="/img/youtube.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+
+        <!-- scripts -->
+        <script src="/js/jquery-3.1.1.min.js"></script>
+        <script src="/js/main.js"></script>
+    </body>
+
+</html>
